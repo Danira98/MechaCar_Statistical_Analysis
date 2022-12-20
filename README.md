@@ -5,7 +5,7 @@
 
 ## Results:
 
-## Linear Regression ot Predict MPG
+## Linear Regression on Predict MPG
 
 In order to predict the mpg of the MechaCars , we used linear regression for multiple independent variables. We considered the column mpg as the dependent variable and used the remainding variables as the independent variables being compared too. After using the built in fuction for a linear model,lm(), we can observe the following results:
 
