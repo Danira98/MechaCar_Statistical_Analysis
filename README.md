@@ -33,3 +33,24 @@ In order to determine whether the suspension coil is valid for the specification
   - Lot 3: The variance is approximately 170.29. Due to the variance exceeding the 100 pounds per square inch requirement, this manufacturing data does not meet the design specifications.
 
 ![per lot summary](https://user-images.githubusercontent.com/111034667/210287145-df38391c-9d3a-4b92-8066-ba95cc20a6f7.png)
+
+## T-Test on Suspension Coils
+
+For this portion of the analysis, we conducted four different T-Tests. We tested our means for the lots together, and each individual lot against the population mean of 1,500 pounds per square inch. We are conducting this to find if there is a statistical difference between our values.We are using the following hypothesis for our t-test:
+
+Null hypothesis(H0): There is no statistical difference between the observed mean and its population mean.
+Alternative hypothesis(H1): There is a statistical difference between the observed mean and its population mean.
+
+The following are the results of each one of our T-Tests:
+
+- PSI Mean across all manufacturing lots vs Population Mean:
+We tested the mean of 1498.78 against the population mean of 1500. After applying our t-test() function, we found the p-value to be equal to 0.06028. Since the p-value is greater than 0.05, there is not enough evidence to reject the null hypothesis. Therefore, both means are statistically similar.
+
+- PSI mean of Lot 1 vs Population Mean:
+We tested the mean of 1500.00 against the population mean of 1500. The t-test found the p-value to be equal to 1. Since the p-value is greater than 0.05, there is not enough evidence to reject the null hypothesis. Therefore, both means are statistically similar.
+
+- PSI mean of Lot 2 vs Population Mean:
+We tested the mean of 1500.20 against the population mean of 1500. The t-test found the p-value to be 0.06072. Since the p-value is greater than 0.05, there is not enough evidence to reject the null hypothesis. Therefore, both means are statistically similar.
+
+- PSI mean of Lot 3 vs Population Mean:
+We tested the mean of 1496.14 against the population mean of 1500. The t-test found the p-value to be 0.04168. Since the p-value is less than 0.05, there is enough evidence to reject the null hypothesis. Therefore, both means are statistically different.
