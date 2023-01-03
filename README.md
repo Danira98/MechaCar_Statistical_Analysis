@@ -62,3 +62,5 @@ We tested the mean of 1500.20 against the population mean of 1500. The t-test fo
 We tested the mean of 1496.14 against the population mean of 1500. The t-test found the p-value to be 0.04168. Since the p-value is less than 0.05, there is enough evidence to reject the null hypothesis. Therefore, both means are statistically different.
 
 ![lot3 mean](https://user-images.githubusercontent.com/111034667/210301529-558748c2-0ea3-4cc7-b550-28c506b8585e.png)
+
+## Study Design: MechaCar vs Competition
