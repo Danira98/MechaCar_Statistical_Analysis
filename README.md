@@ -26,8 +26,10 @@ In order to determine whether the suspension coil is valid for the specification
  ![total summary](https://user-images.githubusercontent.com/111034667/210286822-eb8e990a-10eb-4108-8268-f1a269d1335a.png)
 
  
- - Summary per lot:
- 
-  -Lot 1: The variance for this lot was found to be approximately 0.98. Since this value does not exceed the pounds per square inch requirement, the current manufacturing data meets the design specifications.
-  -Lot 2: The variance for this lot is approximately 7.47.Therefore, since the value does not exceed the pounds per square inch requireent, the current manufacturing data meets the design specifications.
-  -Lot 3: The variance for this lot is approximately 170.29 . Due to the variance exceeding the 100 pounds per square inch requirement, this module does not meet the design specifications.
+- Summary per lot:
+
+ - Lot 1: The variance for this lot was found to be approximately 0.98. Since this value does not exceed the pounds per square inch requirement, the current manufacturing data meets the design specifications.
+ - Lot 2: The variance for this lot is approximately 7.47.Therefore, since the value does not exceed the pounds per square inch requireent, the current manufacturing data meets the design specifications.
+ - Lot 3: The variance for this lot is approximately 170.29 . Due to the variance exceeding the 100 pounds per square inch requirement, this module does not meet the design specifications.
+
+![per lot summary](https://user-images.githubusercontent.com/111034667/210287145-df38391c-9d3a-4b92-8066-ba95cc20a6f7.png)
