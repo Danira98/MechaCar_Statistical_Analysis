@@ -46,11 +46,19 @@ The following are the results of each one of our T-Tests:
 - PSI Mean across all manufacturing lots vs Population Mean:
 We tested the mean of 1498.78 against the population mean of 1500. After applying our t-test() function, we found the p-value to be equal to 0.06028. Since the p-value is greater than 0.05, there is not enough evidence to reject the null hypothesis. Therefore, both means are statistically similar.
 
+![PSI Lots](https://user-images.githubusercontent.com/111034667/210301472-f1816053-d51d-4486-b17c-e6f1be055615.png)
+
 - PSI mean of Lot 1 vs Population Mean:
 We tested the mean of 1500.00 against the population mean of 1500. The t-test found the p-value to be equal to 1. Since the p-value is greater than 0.05, there is not enough evidence to reject the null hypothesis. Therefore, both means are statistically similar.
+
+![lot1 mean](https://user-images.githubusercontent.com/111034667/210301490-bfacfbfe-f393-4755-8170-bc1a623926a4.png)
 
 - PSI mean of Lot 2 vs Population Mean:
 We tested the mean of 1500.20 against the population mean of 1500. The t-test found the p-value to be 0.06072. Since the p-value is greater than 0.05, there is not enough evidence to reject the null hypothesis. Therefore, both means are statistically similar.
 
+![lot2 mean](https://user-images.githubusercontent.com/111034667/210301510-542bf2e4-0ed1-4385-b098-5e9dd2182495.png)
+
 - PSI mean of Lot 3 vs Population Mean:
 We tested the mean of 1496.14 against the population mean of 1500. The t-test found the p-value to be 0.04168. Since the p-value is less than 0.05, there is enough evidence to reject the null hypothesis. Therefore, both means are statistically different.
+
+![lot3 mean](https://user-images.githubusercontent.com/111034667/210301529-558748c2-0ea3-4cc7-b550-28c506b8585e.png)
