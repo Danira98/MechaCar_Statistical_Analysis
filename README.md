@@ -38,8 +38,8 @@ In order to determine whether the suspension coil is valid for the specification
 
 For this portion of the analysis, we conducted four different T-Tests. We tested our means for the lots together, and each individual lot against the population mean of 1,500 pounds per square inch. We are conducting this to find if there is a statistical difference between our values.We are using the following hypothesis for our t-test:
 
-Null hypothesis(H0): There is no statistical difference between the observed mean and its population mean.
-Alternative hypothesis(H1): There is a statistical difference between the observed mean and its population mean.
+- Null hypothesis (H0): There is no statistical difference between the observed mean and its population mean.
+- Alternative hypothesis (H1): There is a statistical difference between the observed mean and its population mean.
 
 The following are the results of each one of our T-Tests:
 
@@ -67,8 +67,8 @@ We tested the mean of 1496.14 against the population mean of 1500. The t-test fo
 
 Since our goal is to compare our MechaCar to the competition, we can perform additional statistical analysis to quantify how our MechCar performs against the competition. There are many factors that an individual will look at before deciding on the car they want to purchase. Some of the factors are the total cost of the car, its fuel efficiency, horse power, maintenance cost, and safety rating, among many others. We can create an additional statistical analysis using two sample t-test testing in which we compare the mean fuel efficiency of our MechaCar against the mean fuel efficiency of the competitor for both the city and highway. This test is ideal for our purpose since both samples are continuous, and we get to test two samples against each other. To carry out this statistical test, we will need the average city and highway fuel use of each car. We will then carry on two different two-sample t-test in which we test the mean city fuel use of both cars, and the mean highway fuel use of both cars. We use the following hypothesis to carry on both statistical tests:
 
-Null hypothesis (H0): There is no statistical difference between the two sample means
-Alternative hypothesis (H1): There is a statistical difference between the two sample means.
+- Null hypothesis (H0): There is no statistical difference between the two sample means
+- Alternative hypothesis (H1): There is a statistical difference between the two sample means.
 
 By applying this test, we will get to see how different the mean fuel efficiency is for both cars and identify which one would be worth buying.
 
