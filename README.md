@@ -7,7 +7,7 @@
 
 ## Linear Regression on Predict MPG
 
-In order to predict the mpg of the MechaCars , we used linear regression for multiple independent variables. We considered the column mpg as the dependent variable and used the remainding variables as the independent variables being compared too. After using the built in fuction for a linear model,lm(), we can observe the following results:
+In order to predict the mpg of the MechaCars , we used linear regression for multiple independent variables. We considered the column mpg as the dependent variable and used the remainding variables as the independent variables being compared too. After using the built in fuction for a linear model, lm(), we can observe the following results:
 
 - The intercept will be at (0,-1.040e+02)
 - The variables and coefficients that contain a significantly small p value are the intercept, vehicle_length and ground_clearance. Furthermore, since the p values are smaller than 0.0001, these values provide a non=random amount of variance to the mpg values in the data set since the probability of being wrong is very small.
@@ -64,3 +64,11 @@ We tested the mean of 1496.14 against the population mean of 1500. The t-test fo
 ![lot3 mean](https://user-images.githubusercontent.com/111034667/210301529-558748c2-0ea3-4cc7-b550-28c506b8585e.png)
 
 ## Study Design: MechaCar vs Competition
+
+Since our goal is to compare our MechaCar to the competition, we can perform additional statistical analysis to quantify how our MechCar performs against the competition. There are many factors that an individual will look at before deciding on the car they want to purchase. Some of the factors are the total cost of the car, its fuel efficiency, horse power, maintenance cost, and safety rating, among many others. We can create an additional statistical analysis using two sample t-test testing in which we compare the mean fuel efficiency of our MechaCar against the mean fuel efficiency of the competitor for both the city and highway. This test is ideal for our purpose since both samples are continuous, and we get to test two samples against each other. To carry out this statistical test, we will need the average city and highway fuel use of each car. We will then carry on two different two-sample t-test in which we test the mean city fuel use of both cars, and the mean highway fuel use of both cars. We use the following hypothesis to carry on both statistical tests:
+
+Null hypothesis (H0): There is no statistical difference between the two sample means
+Alternative hypothesis (H1): There is a statistical difference between the two sample means.
+
+By applying this test, we will get to see how different the mean fuel efficiency is for both cars and identify which one would be worth buying.
+
