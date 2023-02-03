@@ -2,6 +2,19 @@
 
 ## Overview of Project
 
+### Overview:
+
+In this project, we will use statistical analysis to help the company AutosRUs'2 manufacturing team improve their newest prototype called MechaCar. With statistical tests and some significant summary statistics, like T-tests, linear regression, and means, we will be able to carry our analysis and help the maunfacturing team identify which features of their car needs improvement. To carry on our statistical test, we will be using the program R which is widely known to be the main programming language for these types of tests due to their build in functions.
+
+### Purpose
+
+With the help of R, we will carry on linear regression and T-tests of some measurements of the car to compare the prototypes against eachother to identify where they are failing. To do so, we will perform the following steps:
+
+- Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+- Collect summary statistics on the pounds per square inch(PSI) of the suspension coils from the manufacturing lots.
+- Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
+- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles form other manufacturers.
+
 
 ## Results:
 
