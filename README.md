@@ -16,7 +16,7 @@ With the help of R, we will carry on linear regression and T-tests of some measu
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles form other manufacturers.
 
 
-## Results:
+## Results
 
 ## Linear Regression on Predict MPG
 
